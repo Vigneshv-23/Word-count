@@ -19,6 +19,9 @@ print the assigned variables length using len() funcion
 end of the program
 ## PROGRAM:
 ```
+#count the number of words in a text file
+#developed by:vignesh v
+#register number: 23002301
 with open('/content/drive/MyDrive/record/content.txt','r') as f:
   a=f.read().split()
   print(len(a))
